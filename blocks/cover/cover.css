@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   /*height: 740px;*/
-  aspect-ratio: 100 / 62.5; /*соотношение сторон изображения*/
+  aspect-ratio: 984/615;  /*соотношение сторон изображения*/
   padding-top: 93px;
   box-sizing: content-box;
   position: relative;

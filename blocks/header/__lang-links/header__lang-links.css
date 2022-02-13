@@ -3,7 +3,7 @@
   flex-direction: row;
   gap: 18px;
   align-items: center;
-  list-style-type: none;  
+  list-style-type: none;
   margin: 0 0 5px 0; /*нижний отступ для совпадения с макетом*/
   padding: 0;          
 }
