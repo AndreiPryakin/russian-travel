@@ -1,0 +1,23 @@
+.cover__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  /*line-height: 76px;*/
+  text-align: center;
+  color: #FFFFFF;
+  max-width: min-content;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__title {
+    font-size: calc( (100vw - 320px)/(768 - 320) * (72 - 32) + 32px); /*уравнение с двумя неизвестными для резинового шрифта*/
+    /*font-size: 32px;*/
+    /*line-height: 35px;*/
+    max-width: min-content;
+  }  
+}
