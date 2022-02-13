@@ -1,7 +1,8 @@
 .photo-grid {
   max-width: calc(100% - 96px); /*высота не задана, есть пропорции у ячеек*/
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr)); /*автозаполнение строки колонками с заданной шириной, чтобы не менять количество колонок при сжимании*/ 
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  /*автозаполнение строки колонками с заданной шириной, чтобы не менять количество колонок при сжимании*/ 
   grid-auto-flow: row;
   gap: 16px;
   box-sizing: border-box;
