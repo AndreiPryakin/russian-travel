@@ -16,16 +16,20 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
 @media screen and (min-width: 429px) and (max-width: 768px) {
   .lead {
     padding-top: 49px;
-    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 428px) {
   .lead {
     padding-top: 52px;
-    max-width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 .header {
   max-width: calc(100% - 96px);
-  height: 52px;
+  /*height: 52px;*/
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -19,7 +19,7 @@
 @media screen and (min-width: 320px) and (max-width: 428px) {
   .header {
     max-width: calc(100% - 32px);
-    height: 42px;
+    /*height: 42px;*/
     padding-top: 16px;
   } 
 }
